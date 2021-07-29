@@ -3,7 +3,7 @@
 
 AC_PREREQ([2.71])
 AC_INIT([Autotools Template], [v1.0])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([-Wall -Werror])
 AC_CONFIG_SRCDIR([main.c])
 AC_CONFIG_HEADERS([config.h])
 
