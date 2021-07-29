@@ -270,7 +270,7 @@ target_alias = @target_alias@
 top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
-main_SOURCES = main.c flags.c flags.h
+main_SOURCES = main.c flags.c flags.h macros.h
 all: config.h
 	$(MAKE) $(AM_MAKEFLAGS) all-am
 
